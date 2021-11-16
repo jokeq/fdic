@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+
+body {
+    background-color: #faf9f9;
+    margin: 0;
+}
+
+h1 {
+    margin:auto;
+}
+
+.page-title, .section-title {
+    padding-top: 1%;
+    user-select:  none;
+    text-align: center;
+    font-family: 'Saira', sans-serif;
+}
+
+.section-title {
+  margin-bottom: 3%;
+}
+
+.page-title-text-sub {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #3c4563;
+    margin:auto;
+    margin-bottom: 1%;
+    color: white;
+    padding: 0.5%;
+    max-width:max-content;
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3c4563;
+}
+
+li {
+    float:left;
+}
+
+li a {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #262f47;
+}
+
+#active {
+    background-color: #262f47;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.name {
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.title {
+    font-family: arial;
+    color: gray;
+    font-size: 18px;
+}
+
+.fdic {
+    font-family: Verdana,sans-serif;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #3c4563;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+button:hover, a:hover {
+    background-color: #262f47;
+  }
+
